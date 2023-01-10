@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-auto-flow: column;
+  margin: 50px 70px;
+  box-shadow: 0 0 20px 10px rgb(181, 179, 179);;
+}
+
+.timeline{
+  grid-row: 1/3;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+}
+
+/* goals */
+.timeline h3,
+.primary h3,
+.team h3,
+.scopes h3,
+.goals h3{
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.goal-item{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.goal-icon{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+
+}
+
+.goal-content{
+  margin-top: 20px;
+}
+
+.goal-content p{
+  text-align: justify;
+}
+
+.goal-description{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.scopes-description{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+/* scopes */
+.right,
+.left{
+  width: 50%;
+  margin-left: 10px;
+}
+
+/* team */
+.member-item{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.timeline-no,
+.primary-item i,
+.member-item i{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.timeline-item div,
+.primary-item p,
+.member-item div{
+  margin-top: 10px;
+}
+
+/* primary */
+.timeline-item,
+.primary-item{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+/* timeline */
+.timeline-item{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 0.5px dotted blue;
+}
+
+.timeline-no{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(109, 109, 240);
+  border: 2px solid blue;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.timeline-item div{
+  margin-left: 10px;
+}

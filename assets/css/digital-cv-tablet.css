@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .timeline {
+        grid-row: unset;
+    }
+
+    .goal-description {
+        grid-template-columns: auto;
+    }
+
+    .goal-icon {
+        font-size: 35px;
+    }
+
+    /* scopes */
+    .scopes-description {
+        display: block;
+    }
+
+    .left,
+    .right{
+        width: 100%;
+    }
+
+    /* team */
+    .member-item {
+        grid-template-columns: auto;
+    }
+    .primary-item i,
+    .member-item i {
+        font-size: 30px;
+    }
+
+    .primary-item p,
+    .member-item div {
+        margin-left: 20px;
+    }
+
+    /* primary */
+    .primary-item {
+        grid-template-columns: auto;
+    }
+
+    /* timeline */
+    .timeline-item {
+        grid-template-columns: auto;
+    }
+
+    .timeline-no {
+        padding: 6px;
+        margin-top: 10px;
+        /* width: 50px;
+        height: 50px; */
+        font-size: 22px;
+    }
+}

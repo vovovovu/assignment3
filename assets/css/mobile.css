@@ -1,0 +1,108 @@
+@media screen and (max-width: 470px){
+    /* part2 - navbar */
+    .part2{
+        display: grid;
+        justify-content: left;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .part2-1{
+        height: 40px;
+        padding-left: 20px;
+    }
+
+    .part2-3{
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+
+    .part2-3 h1{
+        font-size: 20px;
+    }
+
+    .part2-3 p{
+        font-size: 18px;
+    }
+
+    .part2-5{
+        display: none;
+    }
+
+    .border-lr{
+        border-left: none;
+        border-right: none;
+    }
+
+    /* part3 - thong tin */
+    #part3{
+        border-top: none;
+    }
+
+    .part3-4,
+    .part3-1{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* part4 - ly lich */
+    #part4{
+        grid-template-columns: 1fr;
+        margin: 50px 0;
+    }
+
+    .part4-2{
+        padding: 0 20px;
+    }
+
+    /* part5 - chung chi-giai thuong */
+    #part5{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .part5-6{
+        border: none;
+    }
+    
+    .part5-8{
+        border-bottom: 1px solid orange;
+    }
+
+    /* part-DA - Du an */
+    #part-DA{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .part6{
+        display: initial;
+    }
+
+    .part6-1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .part6-2{
+        margin-left: 0;
+    }
+
+    .part6-11{
+        display: block;
+    }
+
+    .part6-14{
+        margin-left: 10px;
+    }
+
+    /* footer */
+    .part7-1 i{
+        justify-content: center;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px){
+    /* part2 - navbar */
+    .part2-3{
+        margin-top: -380px;
+    }
+
+    .part2-5{
+        width: 56px;
+        text-indent: -9999px;
+        border-left: 1px solid rgb(223, 220, 220);
+    }
+
+    /* part3 - thong tin */
+    .part3-4,
+    .part3-1{
+        padding: 0 50px;
+    }
+    
+    /* part4 - ly lich */
+    #part4{
+        grid-template-columns: 1fr 1fr;
+        margin: 50px 120px;
+    }
+    
+    /* part5 - chung chi-giai thuong */
+    #part5{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .part5-2{
+        display: block;
+    }
+
+    .part5-5{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    /* part-DA - Du an */
+    #part-DA{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .part6-12{
+        width: 50px;
+    }
+
+    .part6-14{
+        display: block;
+        text-align: left;
+    }
+
+
+}
